@@ -1,0 +1,120 @@
+
+#navb ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #00284d;
+}
+#navb li {
+float: left;
+}
+#navb li a {
+display: block;
+color: white;
+text-align: center;
+padding: 20px 20px;
+text-decoration: none;
+}
+#navb li a:hover {
+background-color: #99ccff;
+}
+/* Start http://www.cursors-4u.com */ body, a:hover {cursor: url(http://cur.cursors-4u.net/nature/nat-5/nat422.ani), url(http://cur.cursors-4u.net/nature/nat-5/nat422.png), progress !important;} /* End http://www.cursors-4u.com */
+
+body {
+/*background-color: #ffe6e6;*/
+background-color: #b3cce6;
+background-repeat: no-repeat;
+background-size: cover;
+font-family: 'Raleway', sans-serif;
+
+}
+h1{
+   color:#ccb3ff; text-align:center; /*font-weight: 900;*/
+   font-family: 'Architects Daughter', cursive;
+}
+h2{
+color:#ccb3ff;margin-left:30px;
+}
+h3{
+color:#9999ff;margin-left:30px
+}
+#abme {
+      color: #002266;
+      font-size: 30px; margin-left:200px;
+
+}
+
+.listbutt a:link, a:visited {
+    background-color:#ff8080;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+      border-radius: 15px;
+      font-size: 15px
+}
+
+
+.listbutt a:hover, a:active {
+    background-color: #ffb3cc;
+}
+
+li{color:#e580ff;}
+
+.thumbnail {
+    width: 320px;
+    height: 240px;
+    background:none;
+    outline:none;
+    border:none;
+}
+
+.image {
+    width: 100%;
+    height: 100%;  
+    margin-left:30px  
+}
+
+.image img {
+    -webkit-transition: all 1s ease; /* Safari and Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -ms-transition: all 1s ease; /* IE 9 */
+    -o-transition: all 1s ease; /* Opera */
+    transition: all 1s ease;
+}
+
+.image:hover img {
+    -webkit-transform:scale(1.25); /* Safari and Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* IE 9 */
+    -o-transform:scale(1.25); /* Opera */
+     transform:scale(1.25);
+}
+
+.centeralign {
+      text-align: center;
+}
+
+.jumbotron {
+      background-image:url("https://kseardesign.files.wordpress.com/2013/08/diamond-pattern.jpg");
+      background-size: cover;
+      height: 95vh;
+}
+.jumbotron2 {
+      background-image:url("https://kseardesign.files.wordpress.com/2013/08/diamond-pattern.jpg");
+      background-size: cover;
+      height: 40vh;
+}
+
+.dropdown:hover .dropdown-menu {
+   display: block;
+}
+
+.noselect {
+      -webkit-touch-callout:none;
+      -webkit-user-select:none;
+      -moz-user-select: none;
+      user-select: none;
+}
